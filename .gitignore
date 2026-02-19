@@ -1,1 +1,20 @@
-node_modules
+# Node modules - not tracked
+node_modules/
+*/node_modules/
+
+# Python virtual environments
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Environment variables
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.DS_Store
+*.swp
+*.swo
